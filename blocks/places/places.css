@@ -1,0 +1,26 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    max-width: 984px;
+    margin: 0 auto;
+    list-style: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1024px) {
+    .places {
+      padding: 6px 48px 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .places {
+      padding: 0 24px 0;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .places {
+      padding: 0 0 0;
+    }
+  }

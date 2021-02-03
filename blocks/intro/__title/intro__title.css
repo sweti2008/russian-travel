@@ -1,0 +1,18 @@
+.intro__title {
+    max-width: 690px;
+    margin: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    color: rgba(255, 255, 255, 1);
+}
+
+@media (max-widh: 320px) {
+    .intro__title {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 163%;
+    } 
+}

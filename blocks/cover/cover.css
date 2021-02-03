@@ -1,0 +1,9 @@
+.cover {
+    color: #FFFFFF;
+    margin: 92px auto 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+    font-weight: 400;
+}
