@@ -1,3 +1,13 @@
-.footer__menu-link{
-margin-right: 18px;
+.footer__menu-link {
+    margin-right: 18px;
+
+}
+
+@media (max-width: 767px) {
+    .footer__menu-link {
+        flex-direction: column;
+        margin: 0;
+        padding-bottom: 32px;
+
+    }
 }

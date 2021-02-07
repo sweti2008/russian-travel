@@ -9,8 +9,7 @@
     flex-direction: column;
     text-decoration: none;
     background-color: 2A2C2F;
-    opacity: 0.3;
-    transition: background-color 0.25s;
+    background-image: url(../../../images/cover-trains.jpg);
     margin: 0 auto;
 }
 

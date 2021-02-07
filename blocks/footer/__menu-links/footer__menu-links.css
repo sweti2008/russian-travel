@@ -4,3 +4,10 @@
     list-style: none;
     padding-left: 0;
 }
+
+@media (max-width: 767px) {
+    .footer__menu-links {
+        flex-direction: column;
+        margin: 0;
+    } 
+}
