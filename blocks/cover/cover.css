@@ -1,9 +1,44 @@
 .cover {
-    color: #FFFFFF;
-    margin: 92px auto 0;
-    position: relative;
-    display: flex;
-    align-items: center;
-    font-family: 'Inter';
-    font-weight: 400;
+  margin: 92px auto 0;
+  position: relative;
+  max-width: 1184px;
+  display: flex;
+  width: 1184px;
+  height: 740px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: 2A2C2F;
+  opacity:  0.3;
+  transition: background-color 0.25s;
+  margin: 0 auto;
+  }
+  
+  
+  
+  .cover:hover {
+    background-color: #2A2C2F;
+    opacity: 0.8;
+  }
+  
+
+@media  (max-width: 1280px) {
+  .cover {
+    max-width: 1024px;
+  }
+}
+
+@media  (max-width: 1024px) {
+  .cover {
+    max-width: 768px;
+  }
+}
+
+@media  (max-width: 768px) {
+  .cover {
+    max-width: 320px;
+  }
 }

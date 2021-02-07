@@ -1,16 +1,22 @@
 .cover__overlay {
-display: flex;
-/*position: absolute;*/
-width: 1184px;
-height: 740px;
-left: 0;
-right: 0;
-top: 0;
-bottom: 0;
-flex-direction: column;
-text-decoration: none;
+    display: flex;
+    width: 1184px;
+    height: 740px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: 2A2C2F;
+    opacity: 0.3;
+    transition: background-color 0.25s;
+    margin: 0 auto;
 }
 
 
 
-
+.cover__overlay:hover {
+    background-color: #2A2C2F;
+    opacity: 0.8;
+}
