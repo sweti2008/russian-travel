@@ -11,6 +11,8 @@
     background-color: rgba(42, 44, 47, 1);
     background-image: url(../../../images/cover-trains.jpg);
     margin: 0 auto;
+    justify-content: center;
+    cursor: pointer;
 }
 
 

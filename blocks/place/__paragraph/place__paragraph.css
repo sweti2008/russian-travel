@@ -1,11 +1,12 @@
 .place__paragraph {
-font-family: Inter;
+font-family: Inter, Arial, sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 163%;
 padding-top: 0;
 margin: 0 0 26px;
+max-width: 484px;
 }
 
 @media (max-width: 768px) {
