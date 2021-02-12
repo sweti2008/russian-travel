@@ -6,3 +6,10 @@
     padding-top: 94px;
     padding-bottom: 24px;
 }
+
+@media (max-width: 767px) {
+    .footer {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
